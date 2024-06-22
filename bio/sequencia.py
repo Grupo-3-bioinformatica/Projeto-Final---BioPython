@@ -1,5 +1,6 @@
 from constantes import DNA_PARA_AMINOACIDO, DNA_STOP_CODONS
 
+
 class Sequencia:
 
     def __init__(self, sequencia):
@@ -37,32 +38,51 @@ class Sequencia:
         for base in self.sequencia:
             sequencia_complementar += self.conversor_sequencial(base)
         return sequencia_complementar
-    
+
     def reverso_complemento(self):
-        sequencia_complementar=self.complement()
-        sequencia_reversa=sequencia_complementar[::-1]
+        sequencia_complementar = self.complement()
+        sequencia_reversa = sequencia_complementar[::-1]
         return sequencia_reversa
-    
+
     def transcrever(self):
-       sequencia_transcrita = ""
-       for base in self.sequencia:
-            if base=='T':
+        sequencia_transcrita = ""
+        for base in self.sequencia:
+            if base == 'T':
                 sequencia_transcrita += 'U'
-            else: 
+            else:
                 sequencia_transcrita += base
-       return sequencia_transcrita
-    
-    def traduzir(self):
+        return sequencia_transcrita
+
+    def transcrever_rna_para_dna(self, sequencia):
+        sequencia_transcrita = ""
+        for base in sequencia:
+            if base == 'U':
+                sequencia_transcrita += 'T'
+            else:
+                sequencia_transcrita += base
+        return sequencia_transcrita
+
+    def traduzir(self, parar=False):
         sequencia_traduzida = ""
         ponto_inicio = "ATG"
         proteina = ""
-        index_inicio = self.sequencia.find(ponto_inicio)
+        eh_rna = str(self.sequencia).find("U") != -1
+        index_inicio = 0
+        index_inicio = str(self.transcrever_rna_para_dna(
+            self.sequencia) if eh_rna else self.sequencia).find(ponto_inicio)
 
         if index_inicio != -1:
-            proteina = self.sequencia[index_inicio:]
+            proteina = self.transcrever_rna_para_dna(
+                self.sequencia[index_inicio:]) if eh_rna else self.sequencia[index_inicio:]
             for i in range(0, len(proteina), 3):
                 codon = proteina[i:i+3]
-                sequencia_traduzida += DNA_PARA_AMINOACIDO[codon]
-                if DNA_STOP_CODONS.find(codon):
-                    break
-                
+                if str(DNA_STOP_CODONS).find(codon) != -1:
+                    if parar:
+                        break
+                    else:
+                        sequencia_traduzida += "*"
+                else:
+                    sequencia_traduzida += DNA_PARA_AMINOACIDO.get(
+                        codon, "X")
+
+        return sequencia_traduzida
