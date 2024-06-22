@@ -1,5 +1,4 @@
-from bio.organismo_fasta import OrganismoFasta
-
+from organismo_fasta import OrganismoFasta
 
 def ler_fasta(caminho_do_arquivo):
     organismos = []
@@ -22,3 +21,6 @@ def ler_fasta(caminho_do_arquivo):
         nome=organismo["nome"],
         sequencia=organismo["sequencia"],
     ) for organismo in organismos]
+
+
+organismo = ler_fasta('arquivos/Flaviviridae-genomes.fasta')
