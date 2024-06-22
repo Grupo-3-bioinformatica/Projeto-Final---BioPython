@@ -25,4 +25,4 @@ def ler_fasta(caminho_do_arquivo):
 
 organismo = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')[0]
 
-print(organismo.sequencia.traduzir(parar=True))
+print(organismo.sequencia.calcular_percentual(bases=["C", "G"]))

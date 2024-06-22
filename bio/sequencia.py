@@ -86,3 +86,18 @@ class Sequencia:
                         codon, "X")
 
         return sequencia_traduzida
+
+    def calcular_percentual(self, bases):
+        quantidade_bases = {
+            "A": 0,
+            "T": 0,
+            "G": 0,
+            "C": 0
+        }
+        soma = 0
+        for base in bases:
+            quantidade_bases[base] = str(self.sequencia).count(base)
+        for base in quantidade_bases:
+            soma += quantidade_bases.get(base, 0)
+        percentual = soma / len(self.sequencia)
+        return round(percentual, 2)
