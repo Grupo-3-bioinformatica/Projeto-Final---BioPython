@@ -20,3 +20,18 @@ class Sequencia:
 
     def __getitem__(self, index):
         return self.sequencia.__getitem__(index)
+
+    def conversor_sequencial(self, base):
+        conversor = {
+            "A": "T",
+            "T": "A",
+            "G": "C",
+            "C": "G"
+        }
+        return conversor[base]
+
+    def complement(self):
+        sequencia_complementar = ""
+        for base in self.sequencia:
+            sequencia_complementar += self.conversor_sequencial(base)
+        return sequencia_complementar
