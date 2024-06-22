@@ -23,6 +23,6 @@ def ler_fasta(caminho_do_arquivo):
     ) for organismo in organismos]
 
 
-organismo = ler_fasta('arquivos/Flaviviridae-genomes.fasta')[0]
+organismo = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')[0]
 
-print(organismo.sequencia.reverso_complemento())
+print(organismo.sequencia.transcrever())

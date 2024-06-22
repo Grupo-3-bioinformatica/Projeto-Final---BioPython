@@ -41,5 +41,14 @@ class Sequencia:
         sequencia_reversa=sequencia_complementar[::-1]
         return sequencia_reversa
     
+    def transcrever(self):
+       sequencia_transcrita = ""
+       for base in self.sequencia:
+            if base=='T':
+                sequencia_transcrita += 'U'
+            else: 
+                sequencia_transcrita += base
+       return sequencia_transcrita
+    
 
         
