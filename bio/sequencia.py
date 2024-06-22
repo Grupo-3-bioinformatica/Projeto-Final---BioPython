@@ -35,3 +35,11 @@ class Sequencia:
         for base in self.sequencia:
             sequencia_complementar += self.conversor_sequencial(base)
         return sequencia_complementar
+    
+    def reverso_complemento(self):
+        sequencia_complementar=self.complement()
+        sequencia_reversa=sequencia_complementar[::-1]
+        return sequencia_reversa
+    
+
+        
