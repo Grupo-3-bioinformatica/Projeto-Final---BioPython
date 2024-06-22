@@ -1,3 +1,5 @@
+from constantes import DNA_PARA_AMINOACIDO, DNA_STOP_CODONS
+
 class Sequencia:
 
     def __init__(self, sequencia):
@@ -50,5 +52,17 @@ class Sequencia:
                 sequencia_transcrita += base
        return sequencia_transcrita
     
+    def traduzir(self):
+        sequencia_traduzida = ""
+        ponto_inicio = "ATG"
+        proteina = ""
+        index_inicio = self.sequencia.find(ponto_inicio)
 
-        
+        if index_inicio != -1:
+            proteina = self.sequencia[index_inicio:]
+            for i in range(0, len(proteina), 3):
+                codon = proteina[i:i+3]
+                sequencia_traduzida += DNA_PARA_AMINOACIDO[codon]
+                if DNA_STOP_CODONS.find(codon):
+                    break
+                
