@@ -21,8 +21,3 @@ def ler_fasta(caminho_do_arquivo):
         nome=organismo["nome"],
         sequencia=organismo["sequencia"],
     ) for organismo in organismos]
-
-
-organismo = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')[0]
-
-print(organismo.sequencia.calcular_percentual(bases=["C", "G"]))
