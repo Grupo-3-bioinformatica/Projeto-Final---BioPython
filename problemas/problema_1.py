@@ -1,3 +1,4 @@
+'''
 # Problema 1: Análise de Composição de Nucleotídeos
 
 # Tarefa: Escreva um script que:
@@ -6,6 +7,7 @@
 # 2) Imprima o percentual de cada nucleotídeo (A, T, C, G) e o conteúdo GC (percentual de C + G) para cada sequência.
 
 # Dica: Use sua classe Sequencia e sua função .calcular_percentual(bases)
+'''
 
 from bio.ler_fasta import ler_fasta
 
@@ -20,6 +22,6 @@ for organismo in organismos:
     }
 
     print(f"Percentual de cada nucleotídeo da sequencia de ${organismo.get("nome", "")}:\n")
+    
     for percentual_nucleotideo in percentual_nucleotideos:
-        print(
-            f"${percentual_nucleotideo}: ${percentual_nucleotideos[percentual_nucleotideo]}")
+        print(f"${percentual_nucleotideo}: ${percentual_nucleotideos[percentual_nucleotideo]}")
