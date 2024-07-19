@@ -12,6 +12,12 @@ Tarefa: Escreva um script em Python para:
 Dica: Use sua classe Sequencia e sua função de traduzir
 '''
 
+import sys
+import os
+
+# Adicionando o diretório raiz do projeto ao sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from bio.sequencia import Sequencia
 
 # Problema_2:

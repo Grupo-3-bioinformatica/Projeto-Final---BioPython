@@ -8,6 +8,11 @@ Tarefa: Escreva um script que:
 
 Dica: Use sua classe Sequencia e sua função .calcular_percentual(bases)
 '''
+import sys
+import os
+
+# Adicionando o diretório raiz do projeto ao sys.path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from bio.ler_fasta import ler_fasta
 
