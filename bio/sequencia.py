@@ -1,4 +1,4 @@
-from constantes import DNA_PARA_AMINOACIDO, DNA_STOP_CODONS
+from bio.constantes import DNA_PARA_AMINOACIDO, DNA_STOP_CODONS
 
 class Sequencia:
 
