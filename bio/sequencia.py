@@ -1,6 +1,5 @@
 from constantes import DNA_PARA_AMINOACIDO, DNA_STOP_CODONS
 
-
 class Sequencia:
 
     def __init__(self, sequencia):
@@ -101,3 +100,4 @@ class Sequencia:
             soma += quantidade_bases.get(base, 0)
         percentual = soma / len(self.sequencia)
         return round(percentual, 2)
+
