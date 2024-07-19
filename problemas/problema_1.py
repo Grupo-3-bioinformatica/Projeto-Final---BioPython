@@ -26,7 +26,7 @@ for organismo in organismos:
         "C": organismo.sequencia.calcular_percentual(bases=["C"]),
     }
 
-    print(f"Percentual de cada nucleotídeo da sequencia de ${organismo.get("nome", "")}:\n")
-
+    #print(f"Percentual de cada nucleotídeo da sequencia de ${organismo.get("nome", "")}:\n")
     for percentual_nucleotideo in percentual_nucleotideos:
-        print(f"${percentual_nucleotideo}: ${percentual_nucleotideos[percentual_nucleotideo]}")
+        print(f'Percentual de cada nucleotídeo da sequencia {percentual_nucleotideo} eh {percentual_nucleotideos[percentual_nucleotideo]}')
+        #print(f"{percentual_nucleotideo}: {percentual_nucleotideos[percentual_nucleotideo]}")
