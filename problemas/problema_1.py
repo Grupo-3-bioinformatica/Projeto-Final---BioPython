@@ -30,3 +30,4 @@ for organismo in organismos:
     for percentual_nucleotideo in percentual_nucleotideos:
         print(f'Percentual de cada nucleotídeo da sequencia {percentual_nucleotideo} eh {percentual_nucleotideos[percentual_nucleotideo]}')
         #print(f"{percentual_nucleotideo}: {percentual_nucleotideos[percentual_nucleotideo]}")
+        
