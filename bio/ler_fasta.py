@@ -21,3 +21,23 @@ def ler_fasta(caminho_do_arquivo):
         nome=organismo["nome"],
         sequencia=organismo["sequencia"],
     ) for organismo in organismos]
+
+# Problema_2:
+# Fazer o parse do arquivo multiFASTA
+def ler_multifasta(nome_arquivo):
+    with open(nome_arquivo, 'r') as arquivo:
+        sequencias = {}
+        sequencia_atual = ''
+        id_atual = None
+        for linha in arquivo:
+            linha = linha.strip()
+            if linha.startswith('>'):
+                if id_atual is not None:
+                    sequencias[id_atual] = sequencia_atual
+                id_atual = linha[1:]
+                sequencia_atual = ''
+            else:
+                sequencia_atual += linha
+        if id_atual is not None:
+            sequencias[id_atual] = sequencia_atual
+    return sequencias

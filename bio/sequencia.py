@@ -100,26 +100,6 @@ class Sequencia:
             soma += quantidade_bases.get(base, 0)
         percentual = soma / len(self.sequencia)
         return round(percentual, 2)
-    
-# Problema_2:
-# Fazer o parse do arquivo multiFASTA
-def ler_multifasta(nome_arquivo):
-    with open(nome_arquivo, 'r') as arquivo:
-        sequencias = {}
-        sequencia_atual = ''
-        id_atual = None
-        for linha in arquivo:
-            linha = linha.strip()
-            if linha.startswith('>'):
-                if id_atual is not None:
-                    sequencias[id_atual] = sequencia_atual
-                id_atual = linha[1:]
-                sequencia_atual = ''
-            else:
-                sequencia_atual += linha
-        if id_atual is not None:
-            sequencias[id_atual] = sequencia_atual
-    return sequencias
 
 def traduzir_sequencias(sequencias):
     sequencias_proteinas = {}
