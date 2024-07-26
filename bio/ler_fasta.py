@@ -45,11 +45,3 @@ def ler_multifasta(nome_arquivo):
         if id_atual is not None:
             sequencias[id_atual] = sequencia_atual
     return sequencias
-
-# Problema 3:
-# Fazer o parse do arquivo multiFASTA contendo os genomas virais
-# Função para verificar a mutação
-def verificar_mutacao(sequencia, posicao, original, mutacao):
-    if len(sequencia) > posicao and sequencia[posicao] == mutacao:
-        return True
-    return False

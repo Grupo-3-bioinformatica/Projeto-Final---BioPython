@@ -27,8 +27,14 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Importando funcoes
-from bio.ler_fasta import ler_multifasta,verificar_mutacao
+from bio.ler_fasta import ler_multifasta
 
+# Definicao das funcoes:
+# Função para verificar a mutação
+def verificar_mutacao(sequencia, posicao, original, mutacao):
+    if len(sequencia) > posicao and sequencia[posicao] == mutacao:
+        return True
+    return False
 
 # Funcao para gerar e imprimir o relatorio
 def gerar_relatorio(sequencias, posicao, original, mutacao):
@@ -54,6 +60,8 @@ def imprimir_relatorio(relatorio):
     print('\nSequências sem a mutação:')
     for id in relatorio['sem_mutacao']:
         print(f'- {id}')
+
+
 
 # Execucao
 nome_arquivo = './arquivos/Flaviviridae-genomes.fasta'

@@ -19,7 +19,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Importando funcoes:
-from bio.sequencia import Sequencia #,traduzir_sequencias
+from bio.sequencia import Sequencia
 from bio.ler_fasta import ler_multifasta
 
 # Imprimir as sequências de proteínas
