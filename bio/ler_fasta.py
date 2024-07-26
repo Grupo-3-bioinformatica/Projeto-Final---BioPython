@@ -30,6 +30,7 @@ def ler_multifasta(nome_arquivo):
         sequencia_atual = ''
         id_atual = None
         for linha in arquivo:
+            # .strip utilizado para remover o \n do final (quebra de linha)
             linha = linha.strip()
             if linha.startswith('>'):
                 if id_atual is not None:
