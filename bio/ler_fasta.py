@@ -37,8 +37,10 @@ def ler_multifasta(nome_arquivo):
                 # Se id_atual não for None, armazena a sequência atual
                 if id_atual is not None:
                     sequencias[id_atual] = sequencia_atual
+                # Atualiza id_atual com a nova linha, removendo o primeiro caractere (>)
                 id_atual = linha[1:]
                 sequencia_atual = ''
+            # A linha é adicionada a sequencia_atual caso não comece com '>'
             else:
                 sequencia_atual += linha
         # Se o id_atual ainda estiver definido, armazena a última sequência lida
