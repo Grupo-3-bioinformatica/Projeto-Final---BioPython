@@ -32,13 +32,16 @@ def ler_multifasta(nome_arquivo):
         for linha in arquivo:
             # .strip utilizado para remover o \n do final (quebra de linha)
             linha = linha.strip()
+            # Valida o comeco da linha
             if linha.startswith('>'):
+                # Se id_atual não for None, armazena a sequência atual
                 if id_atual is not None:
                     sequencias[id_atual] = sequencia_atual
                 id_atual = linha[1:]
                 sequencia_atual = ''
             else:
                 sequencia_atual += linha
+        # Se o id_atual ainda estiver definido, armazena a última sequência lida
         if id_atual is not None:
             sequencias[id_atual] = sequencia_atual
     return sequencias

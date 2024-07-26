@@ -119,6 +119,8 @@ class Sequencia:
         # Round para arredondar o valor em 2 casas decimais
         return round(percentual, 2)
 
+    # Problema_2: Traduzir cada sequência de nucleotídeos para sua sequência de proteína correspondente.
+    # Utilizado em conjunto com a funcao ler_multifasta
     def traduzir_sequencias(self):
         sequencias_proteinas = {}
         for id, seq in self.items():
