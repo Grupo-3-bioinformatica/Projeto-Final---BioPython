@@ -101,10 +101,10 @@ class Sequencia:
         percentual = soma / len(self.sequencia)
         return round(percentual, 2)
 
-def traduzir_sequencias(sequencias):
-    sequencias_proteinas = {}
-    for id, seq in sequencias.items():
-        sequencia_obj = Sequencia(seq)
-        sequencia_proteina = sequencia_obj.traduzir()
-        sequencias_proteinas[id] = sequencia_proteina
-    return sequencias_proteinas
+    def traduzir_sequencias(self):
+        sequencias_proteinas = {}
+        for id, seq in self.items():
+            sequencia_obj = Sequencia(seq)
+            sequencia_proteina = sequencia_obj.traduzir()
+            sequencias_proteinas[id] = sequencia_proteina
+        return sequencias_proteinas

@@ -22,7 +22,7 @@ def ler_fasta(caminho_do_arquivo):
         sequencia=organismo["sequencia"],
     ) for organismo in organismos]
 
-# Problema_2:
+# Problema 2:
 # Fazer o parse do arquivo multiFASTA
 def ler_multifasta(nome_arquivo):
     with open(nome_arquivo, 'r') as arquivo:
@@ -41,3 +41,7 @@ def ler_multifasta(nome_arquivo):
         if id_atual is not None:
             sequencias[id_atual] = sequencia_atual
     return sequencias
+
+# Problema 3:
+# Fazer o parse do arquivo multiFASTA contendo os genomas virais
+

@@ -19,7 +19,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Importando funcoes:
-from bio.sequencia import Sequencia,traduzir_sequencias
+from bio.sequencia import Sequencia #,traduzir_sequencias
 from bio.ler_fasta import ler_multifasta
 
 # Imprimir as sequências de proteínas
@@ -30,6 +30,6 @@ def imprimir_sequencias_proteinas(sequencias_proteinas):
 # Execucao:
 nome_arquivo = './arquivos/Flaviviridae-genomes.fasta'
 sequencias = ler_multifasta(nome_arquivo)
-sequencias_proteinas = traduzir_sequencias(sequencias)
+sequencias_proteinas = Sequencia.traduzir_sequencias(sequencias)
 
 imprimir_sequencias_proteinas(sequencias_proteinas)
