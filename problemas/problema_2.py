@@ -37,5 +37,5 @@ def traduzir_sequencias_em_proteinas(caminho_do_arquivo):
         print(f'Sequência de Proteínas: {sequencia_proteina}\n')
 
 # Execucao:
-nome_arquivo = './arquivos/Flaviviridae-genomes.fasta'
-traduzir_sequencias_em_proteinas(nome_arquivo)
+arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'
+traduzir_sequencias_em_proteinas(arquivo_fasta)

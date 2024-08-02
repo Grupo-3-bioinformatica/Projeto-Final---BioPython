@@ -49,20 +49,21 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
         for organismo in organismos:
             sequencia = organismo.sequencia
             tem_mutacao = verificar_mutacao(sequencia, posicao_mutacao, nucleotideo_original, nucleotideo_mutado)
-            status_mutacao = "Presente" if tem_mutacao else "Ausente"
+            status_mutacao = 'Presente' if tem_mutacao else 'Ausente'
             
             relatorio.write(f'ID: {organismo.id}\n')
             relatorio.write(f'Nome: {organismo.nome}\n')
             relatorio.write(f'Sequência: {sequencia[:50]}... (total {len(sequencia)} nucleotídeos)\n')
-            relatorio.write(f'Mutação na posição {posicao_mutacao} ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
+            #relatorio.write(f'Mutação na posição {posicao_mutacao} ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
+            relatorio.write(f'Mutação na posição 1000 ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
             relatorio.write('-------------------------------------\n')
 
 # Variaveis
 arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'
 arquivo_mutacoes = './arquivos/relatorio_mutacoes.txt'
-posicao_mutacao = 1000 - 1  # Índice 1000 na sequência (começando de 0)
+posicao_mutacao = 999  # Índice 1000 na sequência (começando de 0) eh 999
 nucleotideo_original = 'A'
 nucleotideo_mutado = 'G'
 
 # Gera o relatório
-gerar_relatorio(arquivo_fasta,posicao_mutacao,nucleotideo_original,nucleotideo_mutado)
+gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleotideo_mutado)
