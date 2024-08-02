@@ -19,23 +19,17 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Importando funcoes:
-from bio.ler_fasta import ler_fasta
 from bio.sequencia import Sequencia
+from bio.ler_fasta import ler_multifasta
 
-def traduzir_sequencias_em_proteinas(caminho_do_arquivo):
-    # Ler o arquivo FASTA e obter as sequências
-    organismos = ler_fasta(caminho_do_arquivo)
-    
-    for organismo in organismos:
-        # Cria um objeto Sequencia para cada sequência de nucleotídeos
-        sequencia_obj = Sequencia(organismo.sequencia)
-        # Traduz a sequência de nucleotídeos em uma sequência de proteínas
-        sequencia_proteina = sequencia_obj.traduzir()
-        # Imprime a sequência de proteínas
-        print(f'ID: {organismo.id}')
-        print(f'Nome: {organismo.nome}')
-        print(f'Sequência de Proteínas: {sequencia_proteina}\n')
+# Imprimir as sequências de proteínas
+def imprimir_sequencias_proteinas(sequencias_proteinas):
+    for id, seq in sequencias_proteinas.items():
+        print(f'>{id}\n{seq}')
 
 # Execucao:
 nome_arquivo = './arquivos/Flaviviridae-genomes.fasta'
-traduzir_sequencias_em_proteinas(nome_arquivo)
+sequencias = ler_multifasta(nome_arquivo)
+sequencias_proteinas = Sequencia.traduzir_sequencias(sequencias)
+
+imprimir_sequencias_proteinas(sequencias_proteinas)

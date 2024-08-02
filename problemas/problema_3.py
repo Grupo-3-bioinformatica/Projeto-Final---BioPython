@@ -27,53 +27,42 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Importando funcoes
-from bio.ler_fasta import ler_multifasta
+from bio.ler_fasta import ler_fasta
 
 # Definicao das funcoes:
-# Função para verificar a mutação
-def verificar_mutacao(sequencia, posicao, original, mutacao):
-    if len(sequencia) > posicao and sequencia[posicao] == mutacao:
-        return True
+# Função para verifica se a mutação ocorre na posição especificada.
+def verificar_mutacao(sequencia, posicao_mutacao, nucleotideo_original, nucleotideo_mutado):
+    # Verifica se a posição é válida
+    if len(sequencia) >= posicao_mutacao:
+        # Checa a mutação na posição dada (considerando a posição indexada)
+        return sequencia[posicao_mutacao] == nucleotideo_original and nucleotideo_mutado
     return False
 
-# Funcao para gerar e imprimir o relatorio
-def gerar_relatorio(sequencias, posicao, original, mutacao):
-    relatorio = {
-        'com_mutacao': [],
-        'sem_mutacao': []
-    }
+# Gera um relatório indicando se a mutação está presente nas sequências.
+def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleotideo_mutado):
+    organismos = ler_fasta(arquivo_fasta)
     
-    for id, seq in sequencias.items():
-        if verificar_mutacao(seq, posicao, original, mutacao):
-            relatorio['com_mutacao'].append(id)
-        else:
-            relatorio['sem_mutacao'].append(id)
-    
-    return relatorio
+    with open(arquivo_mutacoes, 'w') as relatorio:
+        relatorio.write('Relatório de Identificação de Mutações\n')
+        relatorio.write('-------------------------------------\n')
 
-# Funcao para imprimir o relatorio
-def imprimir_relatorio(relatorio):
-    print('\nSequências com a mutação:')
-    for id in relatorio['com_mutacao']:
-        print(f'- {id}')
-    
-    print('\nSequências sem a mutação:')
-    for id in relatorio['sem_mutacao']:
-        print(f'- {id}')
+        for organismo in organismos:
+            sequencia = organismo.sequencia
+            tem_mutacao = verificar_mutacao(sequencia, posicao_mutacao, nucleotideo_original, nucleotideo_mutado)
+            status_mutacao = "Presente" if tem_mutacao else "Ausente"
+            
+            relatorio.write(f'ID: {organismo.id}\n')
+            relatorio.write(f'Nome: {organismo.nome}\n')
+            relatorio.write(f'Sequência: {sequencia[:50]}... (total {len(sequencia)} nucleotídeos)\n')
+            relatorio.write(f'Mutação na posição {posicao_mutacao} ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
+            relatorio.write('-------------------------------------\n')
 
-
-
-# Execucao
-nome_arquivo = './arquivos/Flaviviridae-genomes.fasta'
-posicao_mutacao = 999  # Índice 1000 na sequência (começando de 0)
+# Variaveis
+arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'
+arquivo_mutacoes = './arquivos/relatorio_mutacoes.txt'
+posicao_mutacao = 1000 - 1  # Índice 1000 na sequência (começando de 0)
 nucleotideo_original = 'A'
-nucleotideo_mutacao = 'G'
+nucleotideo_mutado = 'G'
 
-# Ler as sequências do arquivo multiFASTA
-sequencias = ler_multifasta(nome_arquivo)
-
-# Gerar o relatório de mutações
-relatorio = gerar_relatorio(sequencias, posicao_mutacao, nucleotideo_original, nucleotideo_mutacao)
-
-# Imprimir o relatório
-imprimir_relatorio(relatorio)
+# Gera o relatório
+gerar_relatorio(arquivo_fasta,posicao_mutacao,nucleotideo_original,nucleotideo_mutado)
