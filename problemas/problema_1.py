@@ -32,7 +32,7 @@ def calcular_percentual_nucleotideos(sequencia):
     return percentual_nucleotideos, percentual_gc
 
 # Execucao
-organismos = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')
+organismos = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')#[0:1]
 
 for organismo in organismos:
     # Inclui a sequencia de onganismos na variavel
@@ -44,6 +44,8 @@ for organismo in organismos:
     print(f'Nome: {organismo.nome}')
     print('Percentual de cada nucleotideo:')
     for nucleotideo, percentual in percentual_nucleotideos.items():
+        # Imprimir o percentual de nucleotideos
         print(f'  {nucleotideo}: {percentual * 100:.2f}%')
+    # Imprime o percentual de C e G
     print(f'Conteúdo GC: {percentual_gc * 100:.2f}%')
     print('-------------------------------------\n')
