@@ -4,7 +4,8 @@
 Tarefa: Escreva um script que:
 
 1) Faça o parse do arquivo multiFASTA, usando a função ler_fasta.
-2) Imprima o percentual de cada nucleotídeo (A, T, C, G) e o conteúdo GC (percentual de C + G) para cada sequência.
+2) Imprima o percentual de cada nucleotídeo (A, T, C, G) e 
+   o conteúdo GC (percentual de C + G) para cada sequência.
 
 Dica: Use sua classe Sequencia e sua função .calcular_percentual(bases)
 '''
