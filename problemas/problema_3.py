@@ -30,15 +30,15 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from bio.ler_fasta import ler_fasta
 
 # Definicao das funcoes:
-# Função para verifica se a mutação ocorre na posição especificada.
+# Funcao para verifica se a mutacao ocorre na posição especificada.
 def verificar_mutacao(sequencia, posicao_mutacao, nucleotideo_original, nucleotideo_mutado):
-    # Verifica se a posição é válida
+    # Verifica se a posicao eh valida
     if len(sequencia) >= posicao_mutacao:
-        # Checa a mutação na posição dada (considerando a posição indexada)
+        # Checa a mutacao na posicao dada (considerando a posicao indexada)
         return sequencia[posicao_mutacao] == nucleotideo_original and nucleotideo_mutado
     return False
 
-# Gera um relatório indicando se a mutação está presente nas sequências.
+# Gera um relatorio indicando se a mutação estah presente nas sequencias.
 def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleotideo_mutado):
     organismos = ler_fasta(arquivo_fasta)
     
@@ -60,9 +60,9 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
 # Variaveis
 arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'
 arquivo_mutacoes = './arquivos/relatorio_mutacoes.txt'
-posicao_mutacao = 999  # Índice 1000 na sequência (começando de 0) eh 999
+posicao_mutacao = 999  # Indice 1000 na sequencia (comecando de 0) eh 999
 nucleotideo_original = 'A'
 nucleotideo_mutado = 'G'
 
-# Gera o relatório
+# Gera o relatorio
 gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleotideo_mutado)
