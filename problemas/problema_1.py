@@ -15,18 +15,35 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from bio.ler_fasta import ler_fasta
+from bio.sequencia import Sequencia
 
-organismos = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')[0:1]
-
-for organismo in organismos:
+# Funcao para calcular percentual de nucleotideos:
+def calcular_percentual_nucleotideos(sequencia):
     percentual_nucleotideos = {
-        "A": organismo.sequencia.calcular_percentual(bases=["A"]),
-        "T": organismo.sequencia.calcular_percentual(bases=["T"]),
-        "G": organismo.sequencia.calcular_percentual(bases=["G"]),
-        "C": organismo.sequencia.calcular_percentual(bases=["C"]),
+        "A": sequencia.calcular_percentual(bases=["A"]),
+        "T": sequencia.calcular_percentual(bases=["T"]),
+        "G": sequencia.calcular_percentual(bases=["G"]),
+        "C": sequencia.calcular_percentual(bases=["C"]),
     }
 
-    #print(f"Percentual de cada nucleotídeo da sequencia de ${organismo.get("nome", "")}:\n")
-    for percentual_nucleotideo in percentual_nucleotideos:
-        print(f'Percentual de cada nucleotídeo da sequencia {percentual_nucleotideo} eh {percentual_nucleotideos[percentual_nucleotideo]}')
-        #print(f"{percentual_nucleotideo}: {percentual_nucleotideos[percentual_nucleotideo]}")
+    # Calcular o conteudo GC (percentual de C + G)
+    percentual_gc = percentual_nucleotideos["G"] + percentual_nucleotideos["C"]
+
+    return percentual_nucleotideos, percentual_gc
+
+# Execucao
+organismos = ler_fasta('./arquivos/Flaviviridae-genomes.fasta')
+
+for organismo in organismos:
+    # Inclui a sequencia de onganismos na variavel
+    sequencia_obj = Sequencia(organismo.sequencia)
+    # Calcula o percentual de nucleotideos
+    percentual_nucleotideos, percentual_gc = calcular_percentual_nucleotideos(sequencia_obj)
+    # Imprime os percentuais separados por Organismo ID
+    print(f'ID: {organismo.id}')
+    print(f'Nome: {organismo.nome}')
+    print('Percentual de cada nucleotideo:')
+    for nucleotideo, percentual in percentual_nucleotideos.items():
+        print(f'  {nucleotideo}: {percentual * 100:.2f}%')
+    print(f'Conteúdo GC: {percentual_gc * 100:.2f}%')
+    print('-------------------------------------\n')

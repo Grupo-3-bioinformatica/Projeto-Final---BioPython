@@ -22,6 +22,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from bio.ler_fasta import ler_fasta
 from bio.sequencia import Sequencia
 
+# Funcao de traducao das sequencias em proteinas
 def traduzir_sequencias_em_proteinas(caminho_do_arquivo):
     # Ler o arquivo FASTA e obter as sequências
     organismos = ler_fasta(caminho_do_arquivo)
@@ -34,7 +35,7 @@ def traduzir_sequencias_em_proteinas(caminho_do_arquivo):
         # Imprime a sequência de proteínas
         print(f'ID: {organismo.id}')
         print(f'Nome: {organismo.nome}')
-        print(f'Sequência de Proteínas: {sequencia_proteina}\n')
+        print(f'Sequencia de Proteinas: {sequencia_proteina}\n')
 
 # Execucao:
 arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'

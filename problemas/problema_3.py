@@ -43,7 +43,7 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
     organismos = ler_fasta(arquivo_fasta)
     
     with open(arquivo_mutacoes, 'w') as relatorio:
-        relatorio.write('Relatório de Identificação de Mutações\n')
+        relatorio.write('Relatorio de Identificacao de Mutacoes\n')
         relatorio.write('-------------------------------------\n')
 
         for organismo in organismos:
@@ -53,8 +53,8 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
             
             relatorio.write(f'ID: {organismo.id}\n')
             relatorio.write(f'Nome: {organismo.nome}\n')
-            relatorio.write(f'Sequência: {sequencia[:50]}... (total {len(sequencia)} nucleotídeos)\n')
-            relatorio.write(f'Mutação na posição 1000 ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
+            relatorio.write(f'Sequencia: {sequencia[:50]}... (total {len(sequencia)} nucleotideos)\n')
+            relatorio.write(f'Mutacao na posicao 1000 ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
             relatorio.write('-------------------------------------\n')
 
 # Variaveis
