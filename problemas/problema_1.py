@@ -21,14 +21,14 @@ from bio.sequencia import Sequencia
 # Funcao para calcular percentual de nucleotideos:
 def calcular_percentual_nucleotideos(sequencia):
     percentual_nucleotideos = {
-        "A": sequencia.calcular_percentual(bases=["A"]),
-        "T": sequencia.calcular_percentual(bases=["T"]),
-        "G": sequencia.calcular_percentual(bases=["G"]),
-        "C": sequencia.calcular_percentual(bases=["C"]),
+        'A': sequencia.calcular_percentual(bases=['A']),
+        'T': sequencia.calcular_percentual(bases=['T']),
+        'G': sequencia.calcular_percentual(bases=['G']),
+        'C': sequencia.calcular_percentual(bases=['C']),
     }
 
     # Calcular o conteudo GC (percentual de C + G)
-    percentual_gc = percentual_nucleotideos["G"] + percentual_nucleotideos["C"]
+    percentual_gc = percentual_nucleotideos['G'] + percentual_nucleotideos['C']
 
     return percentual_nucleotideos, percentual_gc
 
@@ -49,4 +49,4 @@ for organismo in organismos:
         print(f'  {nucleotideo}: {percentual * 100:.2f}%')
     # Imprime o percentual de C e G
     print(f'Conteúdo GC: {percentual_gc * 100:.2f}%')
-    print('-------------------------------------\n')
+    print('--------------------------------------------------------\n')

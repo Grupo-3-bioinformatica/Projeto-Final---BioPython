@@ -44,7 +44,7 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
     
     with open(arquivo_mutacoes, 'w') as relatorio:
         relatorio.write('Relatorio de Identificacao de Mutacoes\n')
-        relatorio.write('-------------------------------------\n')
+        relatorio.write('--------------------------------------------------------\n')
 
         for organismo in organismos:
             sequencia = organismo.sequencia
@@ -53,9 +53,9 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
             
             relatorio.write(f'ID: {organismo.id}\n')
             relatorio.write(f'Nome: {organismo.nome}\n')
-            relatorio.write(f'Sequencia: {sequencia[:50]}... (total {len(sequencia)} nucleotideos)\n')
+            relatorio.write(f'Sequencia: {sequencia[:100]}... (total {len(sequencia)} nucleotideos)\n')
             relatorio.write(f'Mutacao na posicao 1000 ({nucleotideo_original} -> {nucleotideo_mutado}): {status_mutacao}\n')
-            relatorio.write('-------------------------------------\n')
+            relatorio.write('--------------------------------------------------------\n')
 
 # Variaveis
 arquivo_fasta = './arquivos/Flaviviridae-genomes.fasta'
