@@ -49,4 +49,4 @@ for organismo in organismos:
         print(f'  {nucleotideo}: {percentual * 100:.2f}%')
     # Imprime o percentual de C e G
     print(f'Conteúdo GC: {percentual_gc * 100:.2f}%')
-    print('--------------------------------------------------------\n')
+    print('\n--------------------------------------------------------\n')
