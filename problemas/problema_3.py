@@ -43,7 +43,8 @@ def gerar_relatorio(arquivo_fasta, posicao_mutacao, nucleotideo_original, nucleo
     organismos = ler_fasta(arquivo_fasta)
     
     with open(arquivo_mutacoes, 'w') as relatorio:
-        relatorio.write('Relatorio de Identificacao de Mutacoes\n')
+        relatorio.write('\n--------------------------------------------------------')
+        relatorio.write('\nRelatorio de Identificacao de Mutacoes\n')
         relatorio.write('--------------------------------------------------------\n')
 
         for organismo in organismos:
