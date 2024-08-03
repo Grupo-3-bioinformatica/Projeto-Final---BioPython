@@ -1,0 +1,797 @@
+Relatorio de Identificacao de Mutacoes
+-------------------------------------
+ID: NC_074786.1
+Nome: Guereza hepacivirus isolate GHV-1 BWC08, partial genome
+Sequencia: CACTCCATACTACACTCCGCATTTGGGGAGAAGCGCTGGCGTTCGCGGAA... (total 10412 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_074787.1
+Nome: Hepatitis GB virus A polyprotein, complete cds
+Sequencia: CGTGGGAGTCCGGGGCCCCGGACCTCCCACCGAGGTGGGGGGAAAGGGGC... (total 9653 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_076029.1
+Nome: Bovine viral diarrhea virus 1-SD1 polyprotein gene, complete cds
+Sequencia: GTATACGAGAACTAGATAAAATACTCGTATACATATTGGACAACAGAAAA... (total 12308 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_076032.1
+Nome: Bovine viral diarrhea virus 2 strain XJ-04, complete genome
+Sequencia: GTATACGAGATTAGCTAAAGTACTCGTATATGGATTGGACGTCAACAAAT... (total 12284 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_077000.1
+Nome: Rodent pestivirus isolate RtAp-PestV/JL2014 polyprotein (QKT81_gp1) gene, complete cds
+Sequencia: TGTATAAGGAAGGGGTGGGAGCCTTCCCTATACTTGTTTACAAATACCAT... (total 12768 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_077001.1
+Nome: Rodent pestivirus isolate RtNn-PestV/HuB2014 polyprotein (QKT82_gp1) gene, complete cds
+Sequencia: GTATAAGGGATGGGATCCTTGTACATTTCATACCTCTACCGAACAGTATT... (total 13220 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_077015.1
+Nome: Bat pestivirus BtSk-PestV-1/GX2017 polyprotein (QKT96_gp1) gene, complete cds
+Sequencia: TGCATAACCCTGATTGTAATTGGCTGGGTTATGCATGTGAGAACGCAAAA... (total 11921 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_077023.1
+Nome: Pestivirus sp. isolate ovine/It/338710-3/2017 polyprotein (QKU04_gp1) gene, complete cds
+Sequencia: CTCGTGTACAAAATTGGGCATATAAATTTCTGATTCGATTAGGGAATCCC... (total 12173 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_077024.1
+Nome: Dongyang pangolin virus isolate DYAJ1, complete genome
+Sequencia: GTATGAAGATAAATCAAAGAGGTGAGAGTGGATTACCACAGCAACCCGCT... (total 12443 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_077026.1
+Nome: Phocoena pestivirus isolate NS170385, complete genome
+Sequencia: GTATACACAAGGTTAGCTCAATCCATTGTGTGTACGATTGGATGTTGCAA... (total 11880 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_043110.1
+Nome: Banzi virus strain SAH 336 polyprotein gene, complete cds
+Sequencia: ATGGTTAATCCAAAGGGCGTCAATGTAATGGCAGCTCGCGTTAAGCGGGC... (total 10182 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_040555.1
+Nome: Lumpfish flavivirus, complete genome
+Sequencia: AATTTACATTCTGACACGCCAATTTAGTCGCTACCAACATTTAGGTCGCT... (total 11336 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_040589.1
+Nome: Diatom colony associated ssRNA virus 1 genomic RNA, complete genome
+Sequencia: AGAAATCTTTTGATATACATGCGCGTATTTTACGATAACGAGCATCCAAT... (total 11413 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_040610.1
+Nome: Nanay virus strain PRD316/PER/09, complete genome
+Sequencia: CCAAGTTTGTTTTATGCGTGAGCTGGATTACACAGTTAGTATTTCGGGTG... (total 10804 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_040645.1
+Nome: Culex Flavi-like virus strain CFVL/San Francisco, complete genome
+Sequencia: CGCTGTTTTCGAATCAGTTTATCGAAGGCGTTCTATAGCGCAAGCTCGAG... (total 10609 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_040682.1
+Nome: Culex theileri flavivirus, complete genome
+Sequencia: ATATAAATCCCAGTTTGGTTAAACCTATTTCAAGGCTTAAGTTGTTTATT... (total 10280 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_040776.1
+Nome: Rocio virus strain SPH 34675, complete genome
+Sequencia: AGAAATTCACCTGTGTGAAATTTCACCAACAGTTTTAGTGAAAAGAACTT... (total 10794 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_040788.1
+Nome: Kampung Karu virus isolate SWK_P44, complete genome
+Sequencia: ATGGTTATGAACCTTAGGAGAAGGCTGCCCTTCGGGGCAGCTAACAATGT... (total 10311 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_040815.1
+Nome: Hepacivirus P isolate RHV-GS2015, complete genome
+Sequencia: ACATGGGGGGGGGCTGACAGTGAGTACACTGTGCCAAGCAGGTGCTACGC... (total 8684 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038425.1
+Nome: Non-primate hepacivirus NZP1 polyprotein (POLY) gene, complete cds
+Sequencia: ACCTCCGTGCTAGGCACGGTGCGTTGTCAGCGTTTTGCGCTTGCATGCGC... (total 9531 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038426.1
+Nome: Hepacivirus B polypeptide gene, complete cds
+Sequencia: ACCACAAACACTCCAGTTTGTTACACTCCGCTAGGAATGCTCCTGGAGCA... (total 9143 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038427.1
+Nome: Hepacivirus F, complete genome
+Sequencia: CCGGCGCGCACCGCCCCCCCGAGGGGGGGCGCTGCGTCCCCGTAAGCCGG... (total 9188 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_038428.1
+Nome: Hepacivirus I, complete genome
+Sequencia: CAGGGTTTCGACCCTGGCCCGGATACCTATCGCCTTACGCCGAAAGGTAA... (total 8883 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038429.1
+Nome: Hepacivirus J isolate Hepacivirus/RMU10-3382/GER/2010 polyprotein gene, complete cds
+Sequencia: GCCGCTCCCGAAAGGGAGTCCGGCGCGTCATCCCACTCCGAGGAGTGGGG... (total 9687 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038430.1
+Nome: Hepacivirus K, complete genome
+Sequencia: GGGAACAATGGTCCGTCCGCGGAACGACTCTAGCCATGAGTCTAGTACGA... (total 9609 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038431.1
+Nome: Hepacivirus M polyprotein (POLY) gene, complete cds
+Sequencia: AACCTGGGGACCAGGAATTCGCCGACATGGGACTTTGAGGACTCCGTAGT... (total 9188 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038432.1
+Nome: Hepacivirus N, complete genome
+Sequencia: ACCATCAACACTCCAGGCTCATGGATTAAGTTAGGTTCCGCCGAAGCGGG... (total 8880 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038433.1
+Nome: Theiler's disease-associated virus isolate HorseA1_serum, complete genome
+Sequencia: TGATACCGTGTCCCGGTACGACCTCGCGCGTCCCCAAGCTCGCCCTGAGG... (total 10479 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038434.1
+Nome: Pegivirus F isolate PDB-1698 polyprotein gene, complete cds
+Sequencia: GCCAGCAGTGTTGCCGAAGGCCCGAGTACGGGCCTCCCAGCCGGCGTCAA... (total 10465 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038435.1
+Nome: Pegivirus G isolate PDB-620 polyprotein gene, complete cds
+Sequencia: GACAGGGTCCCGGCGGACGGGCTGGCCATGTATGTCCGTTGTAATGCGTA... (total 10767 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038436.1
+Nome: Human hepegivirus isolate AK-790 polyprotein gene, complete cds
+Sequencia: TGAACTGTTGTTGTAGCAATGCGCATATTGCTACTTCGGTACGCCTAATT... (total 9538 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038437.1
+Nome: Pegivirus I isolate PDB-1715 polyprotein gene, complete cds
+Sequencia: GGTGAGAGCCCGGAAACCGACCACTTGGAGACCCATCCTTCTAGAATGGT... (total 9777 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_038882.1
+Nome: Hepatitis C virus (isolate H77) genotype 1, complete cds
+Sequencia: GCCAGCCCCCTGATGGGGGCGACACTCCACCATGAATCACTCCCCTGTGA... (total 9599 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038912.1
+Nome: Classical swine fever virus, strain Alfort/187 complete genome
+Sequencia: GTATACGAGGTTAGTTCATTCTCGTATGCATGATTGGACAAATTAAAATT... (total 12298 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_038964.1
+Nome: Porcine pestivirus 1 strain 000515 polyprotein mRNA, complete cds
+Sequencia: GCAGATATCGGTGGTGGACCTGGGGGTTGGGCTCACCGTGCCCCTTCATG... (total 11276 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_039218.1
+Nome: Kyasanur forest disease virus polyprotein gene, complete cds
+Sequencia: ATGGCCAAAGGAGCCGTCCTTAAAGGAAAGGGGGGCGGTCCCCCTAGGCG... (total 10376 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_039219.1
+Nome: Royal Farm virus from Afghanistan polyprotein gene, complete cds
+Sequencia: ATGGCTGGCAAAGCCATTTCAAAAGGTAAGGGGGGTGGCCCCCCTGGGAA... (total 10254 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_039237.1
+Nome: Bovine viral diarrhea virus 2 polyprotein gene, complete cds
+Sequencia: GTATACGAGATTAGCTAAAGTACTCGTATACGGATTGGACGTCGACAAAC... (total 12513 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_035889.1
+Nome: Zika virus isolate ZIKV/H. sapiens/Brazil/Natal/2015, complete genome
+Sequencia: AGTTGTTGATCTGTGTGAATCAGACTGCGACAGTTCGAGTTTGAAGCGAA... (total 10808 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_035432.1
+Nome: Linda virus strain Austria1, complete genome
+Sequencia: GTATAGCAGCAGTAGCTCAAGGCTGCTATACGATTGGACATACCAAATTC... (total 12614 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_035187.1
+Nome: Mac Peak virus isolate McPV 150840 polyprotein gene, complete cds
+Sequencia: ATGCAAGTCAAGAGAATGAAGACCCGTGGGGGAGGAGGTGGAAAGCTCGG... (total 10026 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_035118.1
+Nome: Karumba virus isolate KRBV 1892, complete genome
+Sequencia: ATGTTTTTAAAAAACCTGCCTGTGTTTTCTTGGTTATTTTACCTGTTTTC... (total 10646 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_035071.1
+Nome: Apis flavivirus isolate RI-A polyprotein gene, complete cds
+Sequencia: GTGAGTTTCTTCTTGTGGTATTATATCACGGCGATTTCTGAAGCAATTCC... (total 20414 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034442.1
+Nome: Pegivirus K isolate PPgV_903/Ger/2013 polyprotein gene, complete cds
+Sequencia: GGCTCCCCCCCCACCTCGCGCGGCCCGAGGGCCGATACGCGGGTTGGGGG... (total 9760 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_034151.1
+Nome: T'Ho virus strain T'Ho-Mex07, complete genome
+Sequencia: AGAAATTCATCTGTGTGGATTTCTTTACAACAGTTTTGGAAGAGAGAACA... (total 10937 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034242.1
+Nome: Ochlerotatus caspius flavivirus isolate 1608 polyprotein gene, complete cds
+Sequencia: GTCTGATTATAACGGAATAGCTGTTTGAAAGGTGAAAATCTTTTTTCCTG... (total 10370 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_034222.1
+Nome: Mogiana tick virus isolate MGTV/V4/11 segment 1, complete sequence
+Sequencia: GCCCTTGACTGCAAGTGCAAAGGTTGAGGAATCCGCTTCAGACTCAAACG... (total 2963 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034223.1
+Nome: Mogiana tick virus isolate MGTV/V4/11 segment 3, complete sequence
+Sequencia: GCTGAGACTGCAAGTGCACAGGTTTTGGACCTCGCGCTAGACTCACTTTA... (total 2705 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034224.1
+Nome: Mogiana tick virus isolate MGTV/V4/11 VP2-3 gene, complete cds
+Sequencia: CTCTGAGTTGCAAGTGCTATAGCTCGGAATCCCGTCGCAGACTCAATCGA... (total 2728 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034225.1
+Nome: Mogiana tick virus isolate MGTV/V4/11 putative glycoprotein gene, complete cds
+Sequencia: GAACAAAAAAAATAGAGAAAGAAACTGCTAAGACAAGACAAGAATGGCAA... (total 2629 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034204.1
+Nome: Menghai flavivirus isolate MHAedFV1, complete genome
+Sequencia: AACACCGGCTTTAACCAAGTCACGGATTGAAGTGGTTATTTCAAAAAGTT... (total 10897 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_034007.1
+Nome: Phnom Penh bat virus strain 30834_A38, complete genome
+Sequencia: ATGGTCACGCAGCCTCGGAAACGAGGTAATTTGAAAAAACAAATTGTGAG... (total 10131 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_034017.1
+Nome: Xishuangbanna aedes flavivirus, complete genome
+Sequencia: TAAAACACCGGCTTTTACCAGGTCACAGGTTGAATTGGTTTACTATCGGG... (total 10884 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_034018.1
+Nome: Yaounde virus strain Dak Ar Y276 polyprotein gene, complete cds
+Sequencia: ATGTCTAAGAAACCAGGAGGGCCCGGAGGGATCCGGGCAATCAATATGCT... (total 10293 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_033693.1
+Nome: Bouboui virus strain DAK AR B490 polyprotein gene, complete cds
+Sequencia: ATGGTTAATCCAAAGGGCGTCAATGTAATGGCAACCCGTGCAAAACGGGT... (total 10173 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_033694.1
+Nome: Palm Creek virus isolate 56 polyprotein gene, complete cds
+Sequencia: ATGAATCAGGAGAGAGGAATACTCAGGGGTATGGGGAGGTTCCCCCCCCC... (total 10095 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_033697.1
+Nome: Saboya virus strain Dak AR D4600 polyprotein gene, complete cds
+Sequencia: ATGGTTAATCCAAAGGGCGTCAATGTAGTGGCTGGCCGCACTAAACGGCT... (total 10173 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033698.1
+Nome: Uganda S virus polyprotein gene, complete cds
+Sequencia: ATGGTTAATCCAAAGGGCGTCAATGTAATGGCAACCCGCGCAAAACGGGT... (total 10182 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_033699.1
+Nome: Jugra virus strain P-9-314 polyprotein gene, complete cds
+Sequencia: ATGGTAAATCCAAAGGGCGTCAATGTAGTGGCCGGCCGCGCAAAGCGGTT... (total 10173 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033715.1
+Nome: Nounane virus polyprotein mRNA, complete cds
+Sequencia: GTCTACGCGAGTGGAAACATAATACGTTGATACAATTTGGAAAAAACGAA... (total 10755 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033721.1
+Nome: Meaban virus from France polyprotein gene, complete cds
+Sequencia: ATGCCTTCAGTTTTGAGAAAAGGCGGCGGGAAGCCTGCTGCGAAAGCAGC... (total 10266 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033723.1
+Nome: Gadgets Gully virus from Australia polyprotein gene, complete cds
+Sequencia: ATGACTAACAAAGGCATCCTAAAAGGAAGGGGGAGTGGTCCCCCCGGGCG... (total 10251 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033724.1
+Nome: Kadam virus from Uganda polyprotein gene, complete cds
+Sequencia: ATGCCTGCTTTGAAGGCAGGGCGAGGAGGTGCCCGAGCCCCTAGGGGGCC... (total 10215 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_033725.1
+Nome: Bamaga virus isolate CY4270 polyprotein gene, complete cds
+Sequencia: ATGTCTAACCCTTCCGTCAGGAGGGGTGTCAATGTGATGGCGGCTCAGAA... (total 10203 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_033726.1
+Nome: Saumarez Reef virus from Australia polyprotein gene, complete cds
+Sequencia: ATGCCTTCGATTTTGAAAAAGGGCGGCGGAAAGCCTACTGCGAAAGCAGT... (total 10269 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_032088.1
+Nome: New Mapoon virus, complete cds
+Sequencia: AGATGTTCACCTGCGTGAACTGATTAGACAGATCGACATCAGATAGTTTC... (total 10864 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_031950.1
+Nome: Guereza hepacivirus, complete sequence
+Sequencia: CACTCAATACTACACTCCGCATTTGGGGAGAAGCGCTGGCGTTCGCGGAA... (total 10471 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_031916.1
+Nome: Hepacivirus L, complete genome
+Sequencia: CTCCCCTGGCACACTAAGACGCCCGTGAGCCGTGCGCCGGGCCTCTGAAG... (total 8916 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_031947.1
+Nome: Bat hepacivirus polyprotein (POLY) gene, complete cds
+Sequencia: CCCACCTGCGAGACGAGGAGCGGGGAAGCTGGGAAACCTGGGGACCAGGA... (total 9224 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_031327.1
+Nome: Anopheles flavivirus variant 1, complete genome
+Sequencia: AAAAACCCACCTGTGTTTCTTTGGTTATTTTACCTGTGTTTCGCGTTTTT... (total 10588 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_029054.2
+Nome: Potiskum virus strain IBAN 10069 polyprotein gene, complete cds
+Sequencia: ATGGTTAATCCAAAGGGCGTCAATGTAGTGGCTGGCCGCACTAAGCGGTT... (total 10173 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030791.1
+Nome: Hepatitis C virus genotype 7, complete genome
+Sequencia: GCCAGCCCCTTACGGGGCGACACTCCGCCATGAATCACTCCCCTGCGAGG... (total 9443 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030653.1
+Nome: Atypical porcine pestivirus 1 isolate Bavaria S5/9 polyprotein gene, complete cds
+Sequencia: ATGGAAAAACAGATTGCATATTATTTAAAAAAAGAAAAACAAAGAAATGG... (total 10908 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_030400.1
+Nome: Nakiwogo virus strain Uganda08 polyprotein gene, partial cds
+Sequencia: ATGGATCGAAAGAGAGGAATTCCCGGAGGATTGGGAAGGTTCCCGGCCCC... (total 10122 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030401.1
+Nome: Hanko virus polyprotein gene, complete cds
+Sequencia: ATGCACAGGTTGAGAGACCTTCTTCCCGACAAGGGGAAGAAAAATCGTAG... (total 10158 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030289.1
+Nome: Edge Hill virus strain YMP 48 polyprotein gene, complete cds
+Sequencia: ATGCCTGTTCGCCCTAGGAATAAGCCTAAGGGCGTCAATGTAATGGCGGC... (total 10206 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030290.1
+Nome: Culiseta flavivirus strain 502-13, complete genome
+Sequencia: TTTTAAAAGACTAACCCGTGGTTTCAACCAATTTGTGGAAATCTTTAGTA... (total 10864 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_030291.1
+Nome: GB virus D strain 68 polyprotein precursor, gene, complete cds
+Sequencia: GGGGGGGGGAGTGCAGGAATGGCTCCCTAATCAATCGCTACCGGGAATGT... (total 9630 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_029055.1
+Nome: Spondweni virus, complete genome
+Sequencia: ATGAAAAACCCAAAAAGAGCCGGTAGCAGCCGGCTTGTCAATATGCTAAG... (total 10290 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_028377.1
+Nome: Wenling shark virus, complete cds
+Sequencia: GTTGGCTTTTGCCCCCCGCCCAAACGTTGAGTTAAATTACCGGGACGCGT... (total 9653 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_028137.1
+Nome: Macrosiphum euphorbiae virus 1 isolate K01 polyprotein gene, complete cds
+Sequencia: GCGCTTTTGTAGCCCCTTTGAACTTAGCCTTTTGGCAAGCTCTGAGCTTA... (total 22780 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_027998.2
+Nome: Human pegivirus 2 isolate UC0125.US polyprotein gene, complete cds
+Sequencia: AACTGTTGTTGTAGCAATGCGCATATTGCTACTTCGGTACGCCTAATTGG... (total 9867 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_027999.1
+Nome: Paraiso Escondido virus isolate Ecuador2012, complete genome
+Sequencia: AGTAAATCTTGCATGTGGATTAGTGAGCACTAGTTTGCGCATTGAAACAA... (total 10761 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_027817.1
+Nome: Parramatta River virus isolate 92-B115745, complete genome
+Sequencia: AGTTTTTAAAAGTTAACCCGTGGTTTTACCCTAGTTTCGGTGAATTTGCC... (total 10893 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_027819.1
+Nome: Mercadeo virus isolate ER-M10, complete genome
+Sequencia: AGTTTTAAAAAGCTGACCCGTGGTTCATAACCAATTTGTTATAACCTTTA... (total 10938 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_027709.1
+Nome: Spanish goat encephalitis virus isolate AstGoatIREC2011, complete genome
+Sequencia: AGATTTTCTTGCACGTGCATGCTTTTGCTTCGGACAGCACTGGCAGCGGC... (total 10870 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_026797.1
+Nome: Bovine hepacivirus polyprotein (POLY) gene, complete cds
+Sequencia: CCATCGACACTCCAGGCTCACGGATTAAGTTAGGTTCCGCCGAAGCGGGC... (total 8850 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_026620.1
+Nome: Jutiapa virus strain JG-128, complete genome
+Sequencia: ATGCTTAACAATAGCAAATTAAAGAAGCCCTCTGGTGGTGGCCAGAGGGC... (total 10125 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_026623.1
+Nome: Cacipacore virus flavivirus polyprotein (flavivirus polyprotein gene) and truncated polyprotein (flavivirus polyprotein gene) genes, complete cds
+Sequencia: ATGTCTAAAAAACCAGGAGGACCCGGCAAGAACCGGGTCGTCAATATGCT... (total 10284 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_026624.1
+Nome: Sokoluk virus strain LEIV-400K, complete genome
+Sequencia: ATGAATAATCGTAAGAGTAACACCCGGAAACCGGGTGTCAACTTAAAATT... (total 10242 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_025672.1
+Nome: Norway rat hepacivirus 1, complete sequence
+Sequencia: ATGTCCCACAGCGAGCCTGGGATAACCGGGGGTCGGTTCCCAGCCTACAG... (total 8976 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_025673.1
+Nome: Norway rat hepacivirus 2, complete sequence
+Sequencia: ATGAGTTCTTCAATCAAATCTGTTCCCAAACCAAGAAACGGCACCGTGTC... (total 8568 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_025677.1
+Nome: Norway rat pestivirus isolate NrPV/NYC-D23 polyprotein gene, complete cds
+Sequencia: GTATAAGGGTTGGGAACCTTGTACCAAGCTACCTCTGCCATTCAGTATTT... (total 12983 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_025679.1
+Nome: Norway rat pegivirus isolate NrPgV/NYC-E13 polyprotein gene, complete cds
+Sequencia: ATGCAGGTGTTACTTCTCTTAGTGTTAGGGACCGGCGCGGCCGCAAGCGC... (total 10023 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024889.1
+Nome: Equine hepacivirus JPN3/JAPAN/2013 polyprotein (POLY) gene, complete cds
+Sequencia: ACCTCCGTGCTATGCACGGTGCGTTGTCAGCGTTTTGCGCTTGCATGCGC... (total 9355 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024805.1
+Nome: Ilomantsi virus isolate M0724 polyprotein gene, complete cds
+Sequencia: ACTGAATCGATGCAATCGATGGTTTTTCGAACCAGAAGACCCGTTAAGCG... (total 10365 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_024806.1
+Nome: Lammi virus isolate M0719 polyprotein gene, complete cds
+Sequencia: AGAATCGGAGAACCGATGGCGAATAAACCCAAGAAGCCCGCTAGGCGGGC... (total 10320 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_024377.1
+Nome: Simian pegivirus isolate SPgVkrc_RC08 polyprotein precursor, gene, complete cds
+Sequencia: GGGGAATCTCACCCCCCGTCCGGTTCCGGAAGAATCGGAAACCGACACCC... (total 9525 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024299.2
+Nome: Nienokoue virus isolate B51/CI/2004, complete genome
+Sequencia: GAGTTTTTAAAAACCTACGCTAGTGTTAGACTATCGGTTAGTTTAGCTGT... (total 10878 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024111.1
+Nome: Jingmen Tick Virus isolate SY84 segment 4, complete sequence
+Sequencia: GTTTAAAAACGGCCGCCCTGAGTTGCAAGTGCAATAGCTCGGAACCCCGC... (total 2794 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024112.1
+Nome: Jingmen Tick Virus isolate SY84 segment 2, complete sequence
+Sequencia: GTTTAAAAAGCGGACCGTGCCGGTGGCAAGTGCATACATCGTCAACGAAT... (total 2847 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024113.1
+Nome: Jingmen Tick Virus isolate SY84 segment 1, complete sequence
+Sequencia: GTTAAAAGAGGCCGCCCTTTACTGCAAGTGCAAAGGTTAAGGAATCCGCC... (total 3114 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024114.1
+Nome: Jingmen Tick Virus isolate SY84 segment 3, complete sequence
+Sequencia: GTTAAAAAGCGCCAGCTGAGGCTGCAAGTGCATAGGCTTTAGATCACGCG... (total 2824 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_024077.1
+Nome: Soybean cyst nematode virus 5 strain ScV5 polyprotein gene, complete cds
+Sequencia: AACAACGCTAAACCCTCAAACTTTTAATCACCACAAACAAACGAAACAAT... (total 19199 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024018.2
+Nome: Pronghorn antelope pestivirus, complete genome
+Sequencia: GTATACGCAGTTAGTTCATCCTGTGTATACAGATTGGAGACTCTAAAAAC... (total 12273 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_024017.1
+Nome: Nhumirim virus strain BrMS-MQ10, complete genome
+Sequencia: AGTTTGTGCTGTACGTGCACTGGAAGTACATAGTTGGTATAACGGGTAGA... (total 10891 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_023439.1
+Nome: Kama virus strain LEIV-20776Tat polyprotein gene, complete cds
+Sequencia: CTCTTCCCCCCTCCTTCTTGAGTATATGTTCACGTGTGAACGCACTGTCT... (total 10688 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_023424.1
+Nome: Tyuleniy virus strain LEIV-6C polyprotein gene, complete cds
+Sequencia: GGACCAGAGCGAAAGCGGGAACTTTAGTCAGTGACTGAGGCCTCTTGAGT... (total 10673 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_023176.1
+Nome: Porcine pestivirus isolate Bungowannah, complete genome
+Sequencia: TACGCGGGGTATAACGACAGTAGTTCAAGTGTCGTTATGCATCATTGGCC... (total 12656 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_021153.1
+Nome: Rodent hepacivirus, complete genome
+Sequencia: ACCATCTACACTCCCCGTTCCAGGGATTCCCAGCGTGCTAGGGTGGCACG... (total 8879 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_021154.1
+Nome: Rodent pegivirus isolate CC61, complete genome
+Sequencia: GGACTTCGGTCCCCCTGTTACTCTGCGAGCCACCGCAGAGCCAGGGTTGG... (total 11279 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_021069.1
+Nome: Mosquito flavivirus isolate LSFlaviV-A20-09, complete genome
+Sequencia: TAGTTTTTAAAAACTTCAGCTTGGTTAAGTCACTGGTTGATTAAGCCTGT... (total 10865 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_020902.1
+Nome: Equine Pegivirus 1 isolate C0035, complete genome
+Sequencia: GACGCGCATCCCGGGTGAAAGCCCCGGGCGTACGACCTGGTTCGGGATGA... (total 11197 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_018705.3
+Nome: Ntaya virus, complete cds
+Sequencia: AGAAGTTCATCTGTGTGAACTTCGTGATTGACAGCTCAACACGAGTGCGG... (total 10943 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_018713.1
+Nome: Pestivirus strain Aydin/04-TR, complete genome
+Sequencia: GTATACGAGATTAGCTCATACTCGTGTACAAATTGGACGTAGCAAATTTA... (total 12292 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_017086.1
+Nome: Chaoyang virus, complete genome
+Sequencia: GAAAAGTATATTCTACGTGTGCATTCTGTAACATAGTTGGTTGGAGAAGT... (total 10733 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_016997.1
+Nome: Donggang virus, complete genome
+Sequencia: GAAAAGTATATTCTGTGTGTGCGTCTTGGTACACAGTTAGTAGTGAGAGT... (total 10791 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_015843.2
+Nome: Tembusu virus flavivirus polyprotein (flavivirus polyprotein gene) gene, complete cds
+Sequencia: AGAAGTTCGCCTGTGTGAACTTATTCCAAACAGCTTTTGGAGTAGTGCGT... (total 10990 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_012932.1
+Nome: Aedes flavivirus genomic RNA, complete genome, strain: Narita-21
+Sequencia: AGTTTTTAAAAACTTCTGTGAAGGTCACATCCCTAGTTGGATTACGCCGC... (total 11064 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_012812.1
+Nome: Bovine viral diarrhea virus 3 Th/04_KhonKaen, complete genome
+Sequencia: GTATACGCCCAGTTAGTTCAGGTGGACGTGTACGATTGGGTATCCCAAAT... (total 12337 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_012735.1
+Nome: Wesselsbron virus strain SAH177, complete genome
+Sequencia: AGTATATTCTGCGTGCTAATCGTTCGACGTTAGTCCGTGGAGTGAGCTTC... (total 10814 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_012671.1
+Nome: Quang Binh virus, complete genome
+Sequencia: TAGTTTTTAAAAACTTCAGCTTGGTTAAGTCACTGGTTGATTAAGCCTAT... (total 10865 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_012532.1
+Nome: Zika virus, complete genome
+Sequencia: AGTTGTTGATCTGTGTGAGTCAGACTGCGACAGTTCGAGTCTGAAGCGAG... (total 10794 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_012533.1
+Nome: Kedougou virus strain DakAar D1470, complete genome
+Sequencia: ACTTTTTTGATCGGTGTGAATCGATACAAACAGATTTTGTAGAGAAGTTA... (total 10723 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_012534.1
+Nome: Bagaza virus strain DakAr B209, complete genome
+Sequencia: AGAAGTTCATCTGTGTGAACTTTGTGATTGACAGCTCAACACAAGTGCGG... (total 10941 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_009942.1
+Nome: West Nile virus lineage 1, complete genome
+Sequencia: AGTAGTTCGCCTGTGTGAGCTGACAAACTTAGTAGTGTTTGTGAGGATTA... (total 11029 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_009823.1
+Nome: Hepatitis C virus genotype 2, complete genome
+Sequencia: ACCCGCCCCTAATAGGGGCGACACTCCGCCATGAATCACTCCCCTGTGAG... (total 9711 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_009827.1
+Nome: Hepatitis C virus genotype 6, complete genome
+Sequencia: GCCAGCCCCTTAACGGGGCGACACTCCACCATGATCACTCCCCTGTGAGG... (total 9628 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_009029.2
+Nome: Kokobera virus, complete genome
+Sequencia: AGATGTTCACCTGTGTGAACTAACCAGACAGATCGAAGTTAGGTGATTAC... (total 10874 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_008718.1
+Nome: Entebbe bat virus, complete genome
+Sequencia: AGTAAATTTTGCGTGCTAGTCGCTTGGCGTTAGTCCGTGAAGTGAGTTTT... (total 10510 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_008719.1
+Nome: Sepik virus, complete genome
+Sequencia: AGTATATTCTGCGTGCTAATCGTTCAACGTTAGTCCGTGGAGTGAGCTTC... (total 10793 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_008604.2
+Nome: Culex flavivirus, complete genome
+Sequencia: AGTTTTTAAAAACTTCGGCTTGGTTACACCGCAGATTGGTTACACCTACA... (total 10837 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_007580.2
+Nome: Saint Louis encephalitis virus, complete genome
+Sequencia: AGATGTTCGCGTCGGTGAGCGGAGAGGAAACAGATTTCCTTTTTGGAGGA... (total 10940 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_006551.1
+Nome: Usutu virus, complete cds
+Sequencia: AGTCGTTCGTCTGCGTGAGCTCTACTACTTAGTATTGTTTTTGGAGGATC... (total 11066 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_005064.1
+Nome: Kamiti River virus, complete genome
+Sequencia: AGTTTTTGAAAACTTCTGTGAATGTTTATATCCTTAGTCGGATCGAGCTA... (total 11375 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_005062.1
+Nome: Omsk hemorrhagic fever virus, complete genome
+Sequencia: AGATTTTCTTGCACGTGCGTGCGCTTGCTTCAGACAGCAATAGCAGCGGC... (total 10787 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_005039.1
+Nome: Yokose virus, complete genome
+Sequencia: AGTAAATTTTGCGTGCTAGTCGCTGAGCGTCAGACCGCAAAGTGAGTTTT... (total 10857 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_004119.1
+Nome: Montana myotis leukoencephalitis virus, complete genome
+Sequencia: AGTTGGTTTTGCCGGCTACAACGATCCTCCGTAGGAAGCGTTGGTGTCTT... (total 10690 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_003635.1
+Nome: Modoc virus, complete genome
+Sequencia: AGTTGATCCTGCCAGCGGTGGGTCGCTACTGTTTCGCGAACCAGTCGTTT... (total 10600 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_002657.1
+Nome: Classical swine fever virus, complete genome
+Sequencia: GTATACGAGGTTAGTTCATTCTCGTATGCATGATTGGACAAATCAAAATT... (total 12301 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_002640.1
+Nome: Dengue virus 4, complete genome
+Sequencia: AGTTGTTAGTCTGTGTGGACCGACAAGGACAGTTCCAAATCGGAAGCTTG... (total 10649 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_003690.1
+Nome: Langat virus, complete genome
+Sequencia: AGATTTTCTTGCGCGTGCATGCGTGTGCTTCAGACAGCCCAGGCAGCGAC... (total 10943 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_000943.1
+Nome: Murray Valley encephalitis virus, complete genome
+Sequencia: AGACGTTCATCTGCGTGAGCTTCCGATCTCAGTATTGTTTGGAAGGATCA... (total 11014 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_003678.1
+Nome: Pestivirus giraffe-1 H138 complete genome
+Sequencia: GTATACGAGTTTAGCTCAATCCTCGTATACAATATTGGGCGTCACCAAAT... (total 12602 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001655.1
+Nome: Hepatitis GB virus B, complete genome
+Sequencia: ACCACAAACACTCCAGTTTGTTACACTCCGCTAGGAATGCTCCTGGAGCA... (total 9399 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_003679.1
+Nome: Border disease virus X818, complete genome
+Sequencia: GTATACGGGAGTAGCTCATGCCCGTATACAAAATTGGATATTCCAAAACT... (total 12333 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_001837.1
+Nome: Hepatitis GB virus A, complete genome
+Sequencia: GCCGGGTGGAAGGCCCGGAACCGCCCCACCACCTCAACTAGGTGGTAAGG... (total 9550 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_004102.1
+Nome: Hepatitis C virus genotype 1, complete genome
+Sequencia: GCCAGCCCCCTGATGGGGGCGACACTCCACCATGAATCACTCCCCTGTGA... (total 9646 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001809.1
+Nome: Louping ill virus, complete genome
+Sequencia: AGATTTTCTTGCACGTGCGATAGCTTCGGACAGCTTTGGCAGCGGCAGGT... (total 10871 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001477.1
+Nome: Dengue virus 1, complete genome
+Sequencia: AGTTGTTAGTCTACGTGGACCGACAAGAACAGTTTCGAATCGGAAGCTTG... (total 10735 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001710.1
+Nome: GB virus C/Hepatitis G virus, complete genome
+Sequencia: ACGTGGGGGAGTTGATCCCCCCCCCCCGGCACTGGGTGCAAGCCCCAGAA... (total 9392 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001672.1
+Nome: Tick-borne encephalitis virus, complete genome
+Sequencia: AGATTTTCTTGCACGTGCATGCGTTTGCTTCGGACAGCATTAGCAGCGGT... (total 11141 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001563.2
+Nome: West Nile virus lineage 2, complete genome
+Sequencia: AGTAGTTCGCCTGTGTGAGCTGACAAACTTAGTAGTGTTTGTGAGGATTA... (total 10962 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001564.2
+Nome: Cell fusing agent virus strain Galveston, complete genome
+Sequencia: ACTTCGGCTTAGCTACACCACAGTTTTGGTTACGCTTATATTTTCAAAGC... (total 10682 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001461.1
+Nome: Bovine viral diarrhea virus 1, complete genome
+Sequencia: GTATACGAGAATTAGAAAAGGCACTCGTATACGTATTGGGCAATTAAAAA... (total 12573 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001474.2
+Nome: Dengue virus 2, complete genome
+Sequencia: AGTTGTTAGTCTACGTGGACCGACAAAGACAGATTCTTTGAGGGAGCTAA... (total 10723 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_001475.2
+Nome: Dengue virus 3, complete genome
+Sequencia: AGTTGTTAGTCTACGTGGACCGACAAGAACAGTTTCGACTCGGAAGCTTG... (total 10707 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
+ID: NC_003687.1
+Nome: Powassan virus, complete genome
+Sequencia: AGATTTTCTTGCACGTGTGTGCGGGTGCTTTAGTCAGTGTCCGCAGCGTT... (total 10839 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Presente
+-------------------------------------
+ID: NC_002031.1
+Nome: Yellow fever virus, complete genome
+Sequencia: AGTAAATCCTGTGTGCTAATTGAGGTGCATTGGTCTGCAAATCGAGTTGC... (total 10862 nucleotideos)
+Mutacao na posicao 1000 (A -> G): Ausente
+-------------------------------------
